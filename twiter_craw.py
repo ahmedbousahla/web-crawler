@@ -1,10 +1,10 @@
 ﻿
 import tweepy
 
-consumer_key = 'change with your consumer key'
-consumer_secret = 'change with your consumer secret'
-access_token = 'change with your access token'
-access_secret = 'change with your access secret'
+consumer_key = input('input your consumer key')
+consumer_secret = input('input your consumer secret')
+access_token =input( 'input your access token')
+access_secret = input('input your access secret')
 tweetsPerQry = 100
 maxTweets = 1000000
 hashtag = "#algeria"
